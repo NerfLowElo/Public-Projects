@@ -1,0 +1,27 @@
+CLIENTE(_IdCliente_, EmpresaParticular, Nome, _Nif_, {Telemovel}, Email?, PagamentosEfetuados)
+
+OBRA(_IdObra_, DataInicio, DataFim, .Duraçao., Preço)
+
+COLABORADOR(_IdColaborador_, Nome, Cargo, {Telemovel}, _Nif_, Salario(Bruto, Premios))
+
+AREA(_Nome_)
+
+FERRAMENTA(_Nome_, PreçoFerramenta, DataAquisiçao)
+
+
+
+CLIENTE === 1 === <PEDE> === 1 === OBRA
+
+AREA ======== << DIRIGIDO >> SERVIÇO(_Nome_, ValorBase)
+
+SERVIÇO --- N --- <PRESTADO> === 1 === OBRA
+
+COLABORADOR --- N --- <TRABALHA(Horas)> === 1 === OBRA
+
+COLABORADOR --- 1 --- <SUPERVISIONA> === 1 === OBRA
+
+COLABORADOR === N === <PERTENCE> === 1 === AREA
+
+FERRAMENTA === M === <UTILIZADA> --- N --- SERVIÇO
+
+COLABORADOR --- M --- <UTILIZA> === N === FERRAMENTA

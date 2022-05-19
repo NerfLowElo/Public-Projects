@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Grapico IA</title>
+</head>
+<body>
+	<input type="file" id="file-selector">
+	<h3>Contents of the file:</h3>
+	<pre id="file-content"></pre>
+
+	<label for="limit">Choose Graph limit</label>
+	<input type="number" id="limit" name="limit">
+
+	<label>Choose an Algoritm:</label>
+	<select name="Algoritm" id="Algoritm">
+		<option value="all_random" onclick="writeGraph(0)">All_random</option>
+		<option value="nearest_neighbour" onclick="writeGraph(1)">Nearest_neighbour</option>
+		<option value="hsBest" onclick="writeGraph(2)">Hs_bestPerimeter</option>
+		<option value="hsFirst" onclick="writeGraph(3)">Hs_FirstSol</option>
+		<option value="hsRandom" onclick="writeGraph(4)">Hs_RandomSol</option>
+	</select>
+
+	<h3>Graph</h3>
+	<svg id="Area" height=1000 width=1000></svg>
+
+	<!-- Load d3.js -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="d3graph.js"> </script>
+</body>
+</html>

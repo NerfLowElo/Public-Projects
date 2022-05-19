@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inter",
+				"interpExp"
+			],
+			[
+				"i",
+				"interpExp"
+			],
+			[
+				"idEx",
+				"idsExp"
+			],
+			[
+				"ran",
+				"Random"
+			],
+			[
+				"Ra",
+				"Random"
+			],
+			[
+				"get",
+				"gety"
+			],
+			[
+				"sel",
+				"select"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"j-",
+				"j-y-2"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"con",
+				"conjPontos"
+			],
+			[
+				"fla",
+				"flag2"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"ap",
+				"alpha"
+			],
+			[
+				"Link",
+				"LinkedList"
+			],
+			[
+				"p",
+				"println"
+			],
+			[
+				"Lin",
+				"LinkedList"
+			],
+			[
+				"ex",
+				"exchange"
+			],
+			[
+				"ge",
+				"getx"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"group",
+				"group"
+			],
+			[
+				"se",
+				"selectAll"
+			],
+			[
+				"al",
+				"Algoritm"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"add",
+				"addPoints"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"hi",
+				"high-low"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"std",
+				"stdlib.h\tstandard header"
+			],
+			[
+				"ve",
+				"vector_new"
+			],
+			[
+				"m",
+				"math.h\tstandard header"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/Parser.y",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/input.txt",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/Main.hs",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/Lexer.x",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/Lexer.hs",
+		"/home/nuno/Downloads/sn.sql",
+		"/home/nuno/Desktop/db.sql",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/tiger0-reference.md",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/Parser.hs",
+		"/home/nuno/Downloads/parte1/trabalho-laboratorial-grupo_2/Parser.y",
+		"/home/nuno/Desktop/Lexer.x",
+		"/home/nuno/Desktop/Parser.y",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/src/calc.cabal",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/Lexer.x",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/Main.hs",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/input.txt",
+		"/home/nuno/Desktop/trabalho-laboratorial-grupo_3/tiger0-reference.pdf",
+		"/home/nuno/aula-laboratorial-1-NerfLowElo/Setup.hs",
+		"/home/nuno/aula-laboratorial-1-NerfLowElo/src/Tests.hs",
+		"/home/nuno/aula-laboratorial-1-NerfLowElo/src/Interpreter.hs",
+		"/home/nuno/aula-laboratorial-1-NerfLowElo/src/Main.hs",
+		"/home/nuno/aula-laboratorial-0-NerfLowElo/src/Hello.hs",
+		"/home/nuno/aula-laboratorial-0-NerfLowElo/src/hello.c",
+		"/home/nuno/Downloads/formulacao1.mod",
+		"/home/nuno/Downloads/formulacao2.mod",
+		"/home/nuno/Downloads/Formulacao1.mod",
+		"/home/nuno/Downloads/data.dat",
+		"/home/nuno/Desktop/MAD/up201402720/trab_sol.sol",
+		"/home/nuno/Desktop/MAD/up201402720/tp4_sol.sol",
+		"/home/nuno/Desktop/MAD/up201402720/TP4.mod",
+		"/home/nuno/Desktop/MAD/up201402720/Trab1.mod",
+		"/home/nuno/Desktop/MAD/up201402720/dada.dat",
+		"/home/nuno/Desktop/MAD/points-100-3.dat",
+		"/home/nuno/Downloads/kcenter_XY.mod",
+		"/home/nuno/Downloads/kmedian_XY.mod",
+		"/home/nuno/Desktop/MAD/kcenter_sol.sol",
+		"/home/nuno/Desktop/MAD/kmendian_sol.sol",
+		"/home/nuno/AMPL/8pratica.mod",
+		"/home/nuno/Desktop/MAD/8pratica.mod",
+		"/home/nuno/Desktop/IA/output.txt",
+		"/home/nuno/Desktop/IA/input.txt",
+		"/home/nuno/Desktop/IA/d3graph.js",
+		"/home/nuno/Desktop/IA/Graph.html",
+		"/home/nuno/Desktop/IA/Points.java",
+		"/home/nuno/Desktop/IA/Grafo.java",
+		"/home/nuno/Desktop/IA/Ramos.java",
+		"/home/nuno/Desktop/IA/Generator.java",
+		"/home/nuno/Desktop/IA/MainIA.java",
+		"/home/nuno/Downloads/script.java",
+		"/home/nuno/db.sql",
+		"/home/nuno/Desktop/BD/mooshack.sql",
+		"/home/nuno/Downloads/db.sql",
+		"/home/nuno/Desktop/BD/pl7.sql",
+		"/home/nuno/Desktop/MAD/7sol.sol",
+		"/home/nuno/Desktop/MAD/patrica7.mod",
+		"/home/nuno/Desktop/mooshack.sql",
+		"/home/nuno/Desktop/pl6.sql",
+		"/home/nuno/Desktop/IA/Algorithm.java",
+		"/home/nuno/Desktop/IA/MainIA.class",
+		"/home/nuno/Desktop/MAD/p6_sol.sol",
+		"/home/nuno/Desktop/MAD/pratica6.mod",
+		"/home/nuno/Desktop/MAD/ttt_sol.sol",
+		"/home/nuno/Desktop/MAD/ttt.mod",
+		"/home/nuno/Desktop/MAD/quizz11_sol.sol",
+		"/home/nuno/Desktop/MAD/quizz11.mod",
+		"/home/nuno/Desktop/MAD/quizz10.mod",
+		"/home/nuno/Desktop/MAD/pratica1.mod",
+		"/home/nuno/Desktop/MAD/pratica2.mod",
+		"/home/nuno/Desktop/Grafo.java",
+		"/home/nuno/Desktop/Ramos.java",
+		"/home/nuno/Desktop/Points.java",
+		"/home/nuno/Desktop/MainIA.java",
+		"/home/nuno/Desktop/MAD/quizz10.sol",
+		"/home/nuno/Desktop/MAD/teste.mod",
+		"/home/nuno/Desktop/MAD/quizz9.mod",
+		"/home/nuno/Desktop/MAD/teste.sol",
+		"/home/nuno/Desktop/MAD/sol_quizz9.sol",
+		"/home/nuno/Desktop/MAD/sol_pratica5.sol",
+		"/home/nuno/Desktop/mad.py",
+		"/home/nuno/Desktop/output.txt",
+		"/home/nuno/Desktop/MAD/pratica5.mod",
+		"/home/nuno/Desktop/__pycache__/mad.cpython-38.pyc",
+		"/home/nuno/Desktop/MAD/questaoaula.mod",
+		"/home/nuno/Desktop/MAD/teorica.mod",
+		"/home/nuno/Desktop/MAD/mad.mod",
+		"/home/nuno/Desktop/vector.c",
+		"/home/nuno/Desktop/use_vector.c",
+		"/home/nuno/Desktop/vector.h",
+		"/home/nuno/Desktop/complex.c",
+		"/home/nuno/Desktop/use_complex.c",
+		"/home/nuno/Desktop/complex.h",
+		"/home/nuno/Desktop/mad.mod",
+		"/home/nuno/Desktop/testejava.java",
+		"/home/nuno/Desktop/teste.c"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ENGINE=InnoDB DEFAULT CHARSET=latin1",
+			"\n  ",
+			"idsExp",
+			"type",
+			"h",
+			");*/\n",
+			"()\n",
+			">\n",
+			"group"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"newg"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MainIA.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

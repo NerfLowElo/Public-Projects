@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <title>Othello</title>
+    <link rel="shortcut icon" href="images.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+  <div >
+        <img class="img-header" src="header.png" id="header" alt="Othello">
+      </div>
+
+          <div class="main-container" id="main-container">
+            <div class="main-page-container" id="main-page-container" >
+              <button class="selections" id="single-player">Single Player</button>
+              <button class="selections" id="2-players">2 Players</button>
+              <button class="selections" id="instructions">Instructions</button>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button id="pass" class="buttons" onclick="passbutton()" disabled>Pass</button>
+            <button id="restart" class="buttons" onclick="initAllBackToMainPage()">Quit</button>
+            <button id="classification" class="buttons" onclick="takeOnTable()">Classifications</button>
+            <button  class="buttons"  onclick="takeOutInst()">Instructions</button>
+        </div>
+
+        <div class="score-container">
+            <div class="score-inner-container">
+                <div class="tile-container">
+                  <div class="testecanvas">
+                    <canvas id="mycanvas" width="100px" height="100px"></canvas>
+                    <div class="score-tile score-black">
+                        <div class="score-b" id="black-score">2</div>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+            <div class="score-inner-container">
+                <div class="tile-container">
+
+                    <div class="score-tile score-green">
+                        <div class="score" id="green-score">60</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="score-inner-container">
+                <div class="tile-container">
+                  <div class="testecanvas">
+                    <canvas id="mycanvas1" width="100px" height="100px"></canvas>
+                    <div class="score-tile score-white">
+                        <div class="score" id="white-score">2</div>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dark-shroud-inst">
+          <div class="instruct-container">
+            <p style="font-size: 35px;">Game Rules</p>
+            <p style="font-size: 20px;">Reversi is played with special pieces, white on one side and black on the other. In turn, the player places a piece on the board with its color facing up. The player cannot play a piece anywhere - he has to capture one or more pieces of the opponent in each move. The captured pieces are turned (their color changes) and become pieces of the player who made the move. If the player is unable to capture any pieces of the opponent in the current position he must pass turn to your opponent. The only exception is the first two moves, when no piece can be captured and when both players have to play the pieces in one of the four circles in the center of the board. The game ends when neither player can play winning who has more pieces in the field.</p>
+            <button class="name result-selections" id="returntogame"  onclick="takeOffShroudInst()">Back</button>
+          </div>
+
+        </div>
+
+        <div class="dark-shroud-classif">
+          <div class="classification-container">
+
+          </div>
+
+        </div>
+
+        <div class="dark-shroud">
+            <div class="win-lose-draw"></div>
+            <div class="result-container">
+                <button class="name result-selections" id="stay"  onclick="takeOffShroud()">Resume</button>
+                <button class="name result-selections" id="logout"  onclick="logIn()">Logout</button>
+                <button class="name result-selections" id="menu"  onclick="initAllBackToMainPage()">Leave</button>
+            </div>
+
+        </div>
+        <img class= "settings" src="http://icons.iconarchive.com/icons/dtafalonso/android-l/128/Settings-L-icon.png" alt="Settings" onclick="takeOutSettings()">
+
+        <script src="script.js"></script>
+    </body>
+    </html>
